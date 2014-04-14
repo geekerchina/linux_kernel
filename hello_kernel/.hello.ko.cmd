@@ -1,0 +1,1 @@
+cmd_/home/ming/src/linux_kernel/hello_kernel/hello.ko := ld -r -m elf_x86_64 -T /usr/src/kernels/3.13.7-200.fc20.x86_64/scripts/module-common.lds --build-id  -o /home/ming/src/linux_kernel/hello_kernel/hello.ko /home/ming/src/linux_kernel/hello_kernel/hello.o /home/ming/src/linux_kernel/hello_kernel/hello.mod.o
